@@ -1,0 +1,131 @@
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #bc1919;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #333;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #c00;
+  }
+  
+  /* Style the active link */
+  .active{
+    color: red;
+  }
+  
+  /* Main content area */
+  .content {
+    padding: 20px;
+    background-color: #fff;
+
+  }
+  
+  /* Menu item cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 273px;
+    margin: 50px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+   
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Menu item image */
+  .card img {
+    border-radius: 10px 10px 0 0;
+    width: 273px;
+    height: 182px;
+  }
+  
+  /* Menu item name */
+  .card h2 {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Menu item description */
+  .card p {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Menu item price */
+  .card h3 {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Add to cart button */
+  .card button {
+    display: block;
+    margin: auto;
+    background-color: #16e21c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .card button:hover{
+    background-color: #5a9568;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align:center
+  }
+  
+ 
+  
